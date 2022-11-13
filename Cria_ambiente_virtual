@@ -1,0 +1,28 @@
+#CMD
+
+# Primeiro, instalar a biblioteca python virtualenv
+pip install virtualenv
+
+#Para criar o ambiente, só escrever:
+virtualenv venv
+
+#Nova pasta criada com um novo ambiente do python
+
+venv\Scripts\activate
+
+#(venv)
+
+#Em linux:
+venv\bin\activate
+
+#Para sair:
+deactivate
+
+#Gravar todas as bibliotecas utilizadas no script
+
+pip freeze > requirements.txt
+
+#Instala cada uma das bibliotecas utilizadas no script
+pip install -r requirements.txt
+
+
